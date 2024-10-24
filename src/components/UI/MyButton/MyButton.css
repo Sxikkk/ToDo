@@ -1,0 +1,15 @@
+.MyButton {
+    border: 2px solid #1966a1;
+    color: #1966a1;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: 0.2s;
+}
+
+.MyButton:hover {
+    border: 2px solid transparent;
+    color: white;
+    background-color: #1966a1;
+    transition: 0.2s;
+}

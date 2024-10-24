@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.list{
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  .list-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .list-head{
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+  }
+}
+
+.task{
+  display: flex;
+  flex-direction: column;
+  border: #1966a1 2px solid;
+  padding: 20px 25px;
+  .task-head{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .task-footer{
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+.task-form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 20px 50px;
+  border-radius: 12px;
+}
+
+.task-form_content{
+  display: flex;
+  gap: 1rem;
+}
